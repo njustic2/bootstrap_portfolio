@@ -13,6 +13,31 @@ body {
 
 }
 
+
+a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+/* sidebar */
+
+/*.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+*/
+
+
 /*Spacers and Containers*/
 .spacer {
 	margin-top: 35px;
@@ -22,7 +47,7 @@ body {
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: rgb(225,225,225);
-	border-width: 1px;
+	border-width: 2px;
 }
 
 .container2 {
@@ -35,9 +60,10 @@ body {
 	color: #ffffff;
 	background-color:#4aaaa5;
 	text-align: center;
-	padding: 5px 0 15px 0;
+	padding: 15px 0 30px 0;
 	margin-top: 0px;
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	font-size: 18px;
 }
 
 .rowa {
@@ -68,10 +94,11 @@ body {
 }
 
 .linkedinn {
-	width: 72px;
-	height: 72px;
-	margin-left: 17px;
+	width: 75px;
+	height: 75px;
+	margin-left: 4px;
 	margin-bottom: 40px;
+	margin-top: -5px;
 }
 
 .stacko {
@@ -197,4 +224,7 @@ input[type=submit]:hover {
 	font-size: 18px;
 	font-weight: 600;
 	margin-left: 15px;
+}
+h2{
+	font-size: 24px;
 }
