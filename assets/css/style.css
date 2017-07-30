@@ -12,31 +12,54 @@ body {
     background: url("../images/concrete_seamless.png");
 
 }
+* {
+  box-sizing: border-box;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
 
 
-a {
+a, navbar-nav, nav {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 0 solid #efefef;
 }
 
-/* sidebar */
+ /*sidebar */
 
-/*.sidebar {
+.sidebar {
   float: right;
   width: 100%;
-  max-width: 270px;
+  /*max-width: 270px;*/
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
 }
-*/
 
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  /*border: 1px solid #ddd;*/
+}
 
 /*Spacers and Containers*/
 .spacer {
@@ -48,6 +71,10 @@ a {
 	border-style: solid;
 	border-color: rgb(225,225,225);
 	border-width: 2px;
+}
+
+#main-container {
+  padding-top: 130px;
 }
 
 .container2 {
@@ -66,26 +93,6 @@ a {
 	font-size: 18px;
 }
 
-.rowa {
-	margin-bottom: -20px
-}
-
-/*Sociel Media Links*/
-
-.box2 {
-	width: 245px;
-}
-
-.cwm {
-	font-family: "Georgia", "Times", "Times New Roman", "serif";
-	color: #51a9a4;
-	border-bottom: solid;
-	border-width: 1px;
-	border-color: #f1f1f1;
-	padding: 15px 12px 20px 0px;
-	text-align: center;
-}
-
 .githubb {
 	width: 65px;
 	height: 65px;
@@ -99,6 +106,13 @@ a {
 	margin-left: 4px;
 	margin-bottom: 40px;
 	margin-top: -5px;
+}
+
+#connect{
+	margin-bottom: 10px;
+	margin-right: -91px;
+	margin-top: 10px;
+	margin-left: 0;
 }
 
 .stacko {
@@ -119,8 +133,12 @@ a {
 	border-color: rgb(225,225,225);	
 }
 
+h2{
+	font-size: 24px;
+}
+
 #photo {
-	width: 250px;
+	width: 200px;
 	height: 200px;
 	padding: 5px 20px 10px 0px;
 }
@@ -128,6 +146,7 @@ a {
 .words{
 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 	font-size: 17px;
+	float: left;
 	color: #88888b;
 }
 
@@ -225,6 +244,18 @@ input[type=submit]:hover {
 	font-weight: 600;
 	margin-left: 15px;
 }
-h2{
-	font-size: 24px;
+
+
+#logo {
+  float: left;
+  width: 200px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
 }
