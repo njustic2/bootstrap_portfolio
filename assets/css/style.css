@@ -30,8 +30,8 @@ body {
 
 a, navbar-nav, nav {
   display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
+  /*padding-left: 15px;*/
+  /*margin-left: 15px;*/
   line-height: 18px;
   color: #999;
   text-decoration: none;
@@ -47,6 +47,8 @@ a, navbar-nav, nav {
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
+  padding-left: 50px;
+  margin-left: 40px;
   /*border: 1px solid #ddd;*/
 }
 
